@@ -1,6 +1,7 @@
 .header {
   display: flex;
   align-items: center;
+  background: #C53030;
 }
 
 .header a {
@@ -19,4 +20,8 @@
 
 .header .title-group em {
   padding-right: 5px;
+}
+
+.header .title-group a {
+  color: #FFF;
 }
