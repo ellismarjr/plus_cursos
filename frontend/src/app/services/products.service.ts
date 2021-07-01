@@ -10,7 +10,7 @@ import { Product } from '../model/product.model';
 })
 export class ProductsService {
 
-  baseURL = 'http://localhost:3333/products'
+  baseURL = 'http://localhost:3333/products';
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
