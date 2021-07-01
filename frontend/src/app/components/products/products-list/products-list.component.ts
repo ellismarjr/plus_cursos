@@ -10,8 +10,9 @@ import { Product } from 'src/app/model/product.model';
 })
 export class ProductsListComponent implements OnInit {
 
+  displayedColumns = ['id', 'name', 'price', 'actions'];
+  
   products: Product[] = [];
-  displayedColumns = ['id', 'name', 'price'];
   isLoading = false;
 
   constructor(private productService: ProductsService) { }

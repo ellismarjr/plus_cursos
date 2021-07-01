@@ -8,3 +8,22 @@ table {
   justify-content: center;
   align-items: center;
 }
+
+em.edit {
+  color: #f2f2f2;
+  transition: filter 0.2s;
+}
+
+em.edit:hover {
+  filter: brightness(0.8);
+}
+
+em.delete {
+  color: #e35e6b;
+  margin-left: 10px;
+  transition: filter 0.2s;
+}
+
+em.delete:hover {
+  filter: brightness(0.8);
+}
