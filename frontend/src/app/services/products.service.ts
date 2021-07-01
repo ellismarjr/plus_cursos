@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Observable } from 'rxjs';
+
 import { Product } from '../model/product.model';
 
 @Injectable({
@@ -23,5 +24,9 @@ export class ProductsService {
 
   create(product: Product): Observable<Product> {
     return this.http.post<Product>(this.baseURL, product);
+  }
+
+  getAll(): Observable<Product[]> {
+    return this.http.get<Product[]>(this.baseURL);
   }
 }
