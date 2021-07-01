@@ -33,4 +33,8 @@ export class ProductsService {
   getById(id: number): Observable<Product> {
     return this.http.get<Product>(`${this.baseURL}/${id}`);
   }
+
+  update(product: Product): Observable<Product> {
+    return this.http.put<Product>(this.baseURL, product);
+  }
 }
