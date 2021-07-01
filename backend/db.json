@@ -14,6 +14,31 @@
       "id": 3,
       "name": "Sansumg S20+",
       "price": 5000
+    },
+    {
+      "id": 4,
+      "name": "Iphone X",
+      "price": 4500
+    },
+    {
+      "name": "Iphone X",
+      "price": 4500,
+      "id": 5
+    },
+    {
+      "name": "Iphone X",
+      "price": 4500,
+      "id": 6
+    },
+    {
+      "name": "Iphone X",
+      "price": 4500,
+      "id": 7
+    },
+    {
+      "name": "Veio do formulário",
+      "price": "999",
+      "id": 8
     }
   ]
 }
