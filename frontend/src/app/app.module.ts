@@ -23,6 +23,11 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatInputModule } from '@angular/material/input';
 
 import { HttpClientModule } from '@angular/common/http';
+import { ProductsListComponent } from './components/products/products-list/products-list.component';
+import { ProductsList2Component } from './components/products/products-list2/products-list2.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,9 @@ import { HttpClientModule } from '@angular/common/http';
     NavComponent,
     HomeComponent,
     ProductsComponent,
-    ProductsCreateComponent
+    ProductsCreateComponent,
+    ProductsListComponent,
+    ProductsList2Component
   ],
   imports: [
     BrowserModule,
@@ -47,7 +54,10 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
