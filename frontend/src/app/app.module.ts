@@ -32,6 +32,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 import localeBR from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
+import { ProductsUpdateComponent } from './components/products/products-update/products-update.component';
 
 registerLocaleData(localeBR);
 
@@ -45,7 +46,8 @@ registerLocaleData(localeBR);
     ProductsComponent,
     ProductsCreateComponent,
     ProductsListComponent,
-    ProductsList2Component
+    ProductsList2Component,
+    ProductsUpdateComponent
   ],
   imports: [
     BrowserModule,
