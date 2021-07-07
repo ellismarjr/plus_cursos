@@ -27,3 +27,9 @@ em.delete {
 em.delete:hover {
   filter: brightness(0.8);
 }
+
+.btn-delete {
+  border: 0;
+  background: 0;
+  font-size: 0;
+}

@@ -25,9 +25,9 @@
         <a routerLink="/products/update/{{product.id}}">
           <em class="material-icons edit">edit</em>
         </a>
-        <a routerLink="/">
+        <button class="accent btn-delete" (click)="delete(product.id)">
           <em class="material-icons delete">delete</em>
-        </a>
+        </button>
       </td>
     </ng-container>
 

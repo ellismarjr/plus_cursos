@@ -25,4 +25,11 @@ export class ProductsListComponent implements OnInit {
       this.isLoading = false;
     });
   }
+
+  delete(id: number) {
+    this.productService.delete(id).subscribe(() => {
+      this.products = this.products.filter(product => product.id !== id);
+      this.productService.showMessage('Produto excluído com sucesso!');
+    });
+  }
 }

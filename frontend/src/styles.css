@@ -16,3 +16,7 @@ body {
 .v-middle {
   vertical-align: middle;
 }
+
+button {
+  cursor: pointer;
+}
